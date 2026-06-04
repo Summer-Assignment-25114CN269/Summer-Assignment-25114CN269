@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int n, num1 = 0, num2 = 1, nextnum;
+    printf("Enter the number of terms:");
+    scanf("%d", &n);
+
+    for (int i = 0; i < n; i++) {
+        printf("%d", num1);
+        nextnum = num1 +num2;
+        num1 =num2;
+        num2 = nextnum;
+
+    }
+    return 0;
+    
+}
